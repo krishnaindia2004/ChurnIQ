@@ -1,8 +1,24 @@
-# React + Vite
+# ChurnIQ - Customer Churn Prediction Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ChurnIQ is an AI-powered chatbot that helps predict **customer churn in e-commerce**. It allows users to upload files, ask questions, and receive intelligent responses based on customer behavior analytics.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 📂 **Upload Customer Data** (CSV, Excel)
+- 🤖 **AI-Powered Churn Prediction** (ML models like Random Forest, ANN, XGBoost)
+- 💬 **Chatbot Interface** (Ask questions and receive automated insights)
+- 🎨 **Dark-Themed UI** (Modern, sleek React-based design)
+- 🔍 **Interactive Dashboard** (Planned for future updates)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- **Frontend**: React.js (Styled with Tailwind & CSS)
+- **Backend**: Node.js, Express.js (Planned)
+- **Machine Learning**: Python (Scikit-Learn, Pandas, TensorFlow)
+- **Database**: MongoDB (Planned)
+- **Deployment**: GitHub Pages / Vercel (Frontend), AWS (Planned for backend)
+
+## 📥 Installation & Setup
+
+1️⃣ **Clone the Repository**  
+```bash
+git clone https://github.com/krishnaindia2004/ChurnIQ.git
+cd ChurnIQ
