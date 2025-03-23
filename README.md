@@ -1,6 +1,6 @@
 # ChurnIQ - Customer Churn Prediction Chatbot
 
-ChurnIQ is an AI-powered chatbot that helps predict **customer churn in e-commerce**. It allows users to upload files, ask questions, and receive intelligent responses based on customer behavior analytics.
+ChurnIQ is an Gen AI-powered application that helps predict **customer churn in e-commerce**. It allows users to upload files, ask questions, and receive intelligent responses based on customer behavior analytics.
 
 ## 🚀 Features
 - 📂 **Upload Customer Data** (CSV, Excel)
