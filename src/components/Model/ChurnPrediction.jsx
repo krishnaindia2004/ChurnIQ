@@ -51,7 +51,7 @@ const ChurnPrediction = () => {
       {/* Title */}
       <h2 style={{ display: 'flex', alignItems: 'center', marginBottom: '10px', color: '#ffffff' }}>
         <span style={{ fontSize: '1.5rem', marginRight: '10px' }}>💬</span>
-        Chatbot - Ask Questions
+        GenAI Support - Ask Questions
       </h2>
 
       {/* Chat Display Area */}

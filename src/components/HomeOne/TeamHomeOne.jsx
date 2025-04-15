@@ -142,7 +142,7 @@ function TeamHomeOne({ className }) {
                                 </div>
                                 <div className="content text-center">
                                     <h5 className="title">Kungumadharshan K S</h5>
-                                    <span>Documentation</span>
+                                    <span>Backend Developer</span>
                                 </div>
                             </div>
                         </div>
