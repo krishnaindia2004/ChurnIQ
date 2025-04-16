@@ -1,0 +1,140 @@
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 1000;
+  }
+  
+  .chat-popup {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 350px;
+    max-height: 390px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 1000;
+    font-family: 'Segoe UI', sans-serif;
+    height: 500px; /* <- increase this */
+  }
+  
+  .chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .chat-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #ffffff;
+  }
+  
+  .chat-message {
+    margin-bottom: 12px;
+    max-width: 80%;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    position: relative;
+   
+  }
+  
+  .chat-message.bot {
+    background-color: #b6d1ee85;
+    align-self: flex-start;
+  }
+  
+  .chat-message.user {
+    background-color: #b2cae6;
+    color: rgb(0, 0, 0);
+    align-self: flex-end;
+    margin-left: auto;
+  }
+  
+  .chat-time {
+    font-size: 11px;
+    color: #0b0707;
+    margin-top: 4px;
+    display: block;
+    text-align: right;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .chat-input input[type="text"] {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .file-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 6px;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .send-button {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  
+  .chat-footer {
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    color: #3a3434;
+    background-color: #f4f4f4;
+  }
+
+  .chat-message.user > p{
+    color: black;
+  }
+  
+  .chat-message.bot > p{
+    color: black;
+  }

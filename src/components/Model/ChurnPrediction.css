@@ -1,0 +1,76 @@
+.churn-card {
+    background-color: #18181b; /* zinc-900 */
+    color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    max-width: 28rem; /* ~448px */
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .churn-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .churn-button {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 0.75rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+    color: white;
+  }
+  
+  .upload-btn {
+    background-color: #7c3aed; /* purple-600 */
+  }
+  
+  .upload-btn:hover {
+    background-color: #6d28d9; /* purple-700 */
+  }
+  
+  .predict-btn {
+    background-color: #4c1d95; /* purple-900 */
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .predict-btn.active {
+    background-color: #5b21b6; /* purple-800 */
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .predict-btn.active:hover {
+    background-color: #4c1d95; /* purple-900 */
+  }
+  
+  .visualize-btn {
+    background-color: #4f46e5; /* indigo-600 */
+  }
+  
+  .visualize-btn:hover {
+    background-color: #4338ca; /* indigo-700 */
+  }
+  
+  .image-preview {
+    margin-top: 1rem;
+    background-color: #27272a; /* zinc-800 */
+    padding: 1rem;
+    border-radius: 0.75rem;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  }
+  
